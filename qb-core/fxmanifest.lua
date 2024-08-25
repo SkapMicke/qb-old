@@ -2,12 +2,13 @@ fx_version 'cerulean'
 game 'gta5'
 
 description 'QB-Core'
-version '1.1.0'
+version '1.2.6'
 
 shared_scripts {
     'config.lua',
     'shared/locale.lua',
-    'locale/en.lua', -- replace with desired language
+    'locale/en.lua',
+    'locale/*.lua',
     'shared/main.lua',
     'shared/items.lua',
     'shared/jobs.lua',

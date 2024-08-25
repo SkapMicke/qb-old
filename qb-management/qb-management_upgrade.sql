@@ -15,7 +15,7 @@ SELECT job_name, amount, 'boss' FROM bossmenu;
 
 
 -- [[ You can remove all of this if you want, this is just to confirm everything moved over correctly ]]--
-SET @totalbossmenu = (SELECT COUNT(*) FROM `bossmenu`);
+SET @totalbossmenu = (SELECT COUNT(*) FROM `management_funds`);
 SET @managemenu_boss = (SELECT COUNT(*) FROM `management_funds` WHERE type = 'boss');
 
 SELECT CONCAT("TOTAL BOSS MENU: ", @totalbossmenu);
